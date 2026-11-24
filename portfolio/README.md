@@ -44,11 +44,7 @@ A complete portfolio website for a web developer with a full admin dashboard, bu
    - Portfolio: http://localhost/portfolio/
    - Admin: http://localhost/portfolio/admin/
 
-### Default admin login
-```
-Username: admin
-Password: admin123
-```
+
 Change the password from **Settings → Password** after logging in.
 
 ### Database configuration
