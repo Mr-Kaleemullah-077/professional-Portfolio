@@ -57,36 +57,9 @@ define('DB_NAME', 'portfolio_db');
 ```
 
 ## Project structure
-
-```
-portfolio/
-├── database.sql            # Database + seed data
-├── index.php               # Public portfolio site
-├── includes/
-│   ├── config.php          # DB connection
-│   ├── functions.php       # Helpers (settings, uploads, queries)
-│   ├── header.php          # Site header + navbar
-│   └── footer.php          # Site footer
-├── assets/                 # Public CSS/JS
-│   ├── css/style.css
-│   └── js/main.js
-├── api/
-│   └── stats.php           # JSON API for the Angular.js dashboard
-└── admin/
-    ├── index.php           # Login
-    ├── dashboard.php       # Angular.js dashboard
-    ├── projects.php        # Projects CRUD
-    ├── services.php        # Services CRUD
-    ├── skills.php          # Skills CRUD
-    ├── messages.php        # Inbox
-    ├── settings.php        # Site settings + password
-    ├── includes/           # auth guard + admin layout
-    ├── uploads/            # Uploaded images
-    └── assets/
-        ├── css/admin.css
-        ├── js/app.js       # Compiled JavaScript
-        └── ts/app.ts       # TypeScript source
-```
+----------------
+Private: Not for everyone
+----------------
 
 ## Notes
 - Uploaded images are stored in `admin/uploads/` (PHP execution is blocked there via `.htaccess`).
